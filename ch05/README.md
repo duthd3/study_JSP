@@ -56,3 +56,9 @@
 
 - 애너테이션을 이용한 서블릿 매핑
   - 애너테이션을 이용해 서블릿 매핑을 하려면 @WebServlet을 이용한다.(반드시 HttpServlet 클래스 상속 받아야 한다.)
+  ```java
+  @WebServlet("/first")
+  public class FirstServlet extends HttpServlet{
+  ...
+  }
+  ```
